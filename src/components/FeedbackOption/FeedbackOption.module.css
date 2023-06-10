@@ -1,0 +1,37 @@
+.list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.item:not(:last-child) {
+    margin-right: 30px;
+}
+.button {
+  width: 100px;
+  height: 40px;
+
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+
+  background-color: #6B8288;
+
+  font-weight: 500;
+  text-transform: capitalize;
+
+  transition: all 250ms linear;
+
+  cursor: pointer;
+}
+
+.button:hover {
+    background-color: #80A397;
+    color: #d8d3d3;
+    transition: all 250ms linear;
+    transform: scale(1.2);
+  }
+  .button:active {
+    transform: scale(1);
+  }

@@ -1,0 +1,18 @@
+.item {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+list-style: none;
+color: #80A397;
+}
+.item__feedback {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+list-style: none;
+  color:#2E8BC0;
+}
+.item__feedback {
+  color: #145DA0;
+}
+.value {
+  font-weight: 500;
+}
