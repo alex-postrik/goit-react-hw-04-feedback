@@ -1,14 +1,14 @@
-.list {
+/* .btnBlock {
   display: flex;
   justify-content: center;
   margin-bottom: 15px;
   list-style: none;
-}
+} */
 
-.item:not(:last-child) {
+.btnBlockItem:not(:last-child) {
     margin-right: 30px;
 }
-.button {
+.btnBlockItem {
   width: 100px;
   height: 40px;
 
@@ -26,12 +26,12 @@
   cursor: pointer;
 }
 
-.button:hover {
+.btnBlockItem:hover {
     background-color: #80A397;
     color: #d8d3d3;
     transition: all 250ms linear;
     transform: scale(1.2);
   }
-  .button:active {
+  .btnBlockItem:active {
     transform: scale(1);
   }
